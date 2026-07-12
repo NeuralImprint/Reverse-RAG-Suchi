@@ -1,0 +1,37 @@
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backend Config & Secrets
+backend/.env
+.env
+secret*
+*.key
+
+# Backend Environments & Cache
+backend/.venv/
+backend/venv/
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Databases & Vector Stores
+backend/qdrant_storage/
+backend/qdrant_storage
+qdrant_storage/
+*.sqlite3
+*.db
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.eslintcache
+npm-debug.log*
+
+# OS Files
+.DS_Store
+Thumbs.db

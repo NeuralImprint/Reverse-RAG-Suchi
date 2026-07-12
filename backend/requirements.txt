@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+spacy
+httpx
+python-multipart
+qdrant-client
+PyPDF2
+python-dotenv
